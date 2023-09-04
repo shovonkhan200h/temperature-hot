@@ -13,8 +13,8 @@ const fetchData = async(cityName)=>{
     const city = data.name
     const temperature = temp.temp
 
-    const cityNames = document.getElementById(`city`).innerHTML = city;
-    const temperatureValue = document.getElementById(`temperature`).innerHTML = temperature;
+    document.getElementById(`city`).innerHTML = city;
+    document.getElementById(`temperature`).innerHTML = temperature;
     
     
 }
